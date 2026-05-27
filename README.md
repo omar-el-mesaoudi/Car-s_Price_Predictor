@@ -1,6 +1,9 @@
 # Mercedes-Benz Valuation Engine : End-to-End Price Predictor
 An end-to-end Machine Learning pipeline that collects real-time vehicle listings via web scraping, conducts extensive exploratory data analysis (EDA), implements advanced feature engineering, and deploys a high-performance LightGBM Regressor achieving a 96% prediction accuracy. The final model is fully deployed as an interactive web dashboard using Streamlit.
 ## Project Architecture
+    └── Categorical Mappings/
+        └── lgb_car_price_model.pkl       # Final model taken
+        └── model_features.pkl            # Encoding categorical features
     └── Code/
         └── scraper.py                    # Data extraction module using automated prompting
     └── Data/
@@ -31,5 +34,5 @@ Multiple regression algorithms were evaluated using Cross-Validation. The final 
 * **Inference Demonstration** : The end of the Jupyter notebook includes a fully functional, step-by-step prediction example demonstrating model inference on an unobserved test vehicle configuration.
 ## Model Deployment & Web App
 The analytical model was translated into an interactive consumer interface using Cursor.
-* **Prompt Used** : ```create a streamlit application using this code [provided prediction sample code and categorical mappings]```
+* **Prompt Used** : ```create a streamlit application using this code [provided prediction sample code (which is at the end of the jupyter notebook) and categorical mappings]```
 * **Deployment Automation** : To ensure accessibility, a dedicated Windows Batch file (```Streamlit_app.bat```) was built inside the ```Deployment/``` directory to automate application startup for end-users.
