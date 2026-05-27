@@ -10,6 +10,10 @@ An end-to-end Machine Learning pipeline that collects real-time vehicle listings
         └── mercedes_data_full.csv        # Full dataset containing scraped car listings
     └── Deployment/
         └── Streamlit_app.bat             # Windows batch file to launch the application
+    └── Figs/
+        └── app_home_1.png                # User input in Streamlit app
+        └── app_home_2.png                # User input in Streamlit app
+        └── app_prediction.png            # Live pricing engine in Streamlit app
     └── Notebook/
         └── Car's price predictor.ipynb   # EDA, Feature Engineering, Modeling & Evaluation
     └── LICENSE                           # MIT License
@@ -39,4 +43,18 @@ The analytical model was translated into an interactive consumer interface using
 ### Application Interface
 #### User Input & Configuration Panel
 <img src="https://github.com/omar-el-mesaoudi/Car-s_Price_Predictor/blob/main/Figs/app_home_1.png" alt="Application Dashboard Setup" width="80%">
+<img src="https://github.com/omar-el-mesaoudi/Car-s_Price_Predictor/blob/main/Figs/app_home_2.png" alt="Application Dashboard Setup" width="80%">
+
 #### Live Pricing Engine
+<img src="https://github.com/omar-el-mesaoudi/Car-s_Price_Predictor/blob/main/Figs/app_prediction.png" alt="Application Dashboard Setup" width="80%">
+
+
+## Local Installation & Reproduction
+Follow these steps to reproduce the entire environment and run this workspace locally :
+### 1. Clone the Repository
+* Execute :  ```git clone https://github.com/omar-el-mesaoudi/Car-s_Price_Predictor.git
+cd Car-s_Price_Predictor```
+### 2. Install Dependencies
+* To install all the exact library versions required to run the notebook, execute : ```pip install -r requirements.txt```
+### 3. Launching the App
+* Execute : ``````
