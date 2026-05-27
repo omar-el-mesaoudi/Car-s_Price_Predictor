@@ -57,4 +57,4 @@ cd Car-s_Price_Predictor```
 ### 2. Install Dependencies
 * To install all the exact library versions required to run the notebook, execute : ```pip install -r requirements.txt```
 ### 3. Launching the App
-* Execute : ``````
+* Execute : ```streamlit run car_price_api\app.py```
