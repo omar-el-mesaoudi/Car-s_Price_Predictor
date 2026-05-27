@@ -36,3 +36,7 @@ Multiple regression algorithms were evaluated using Cross-Validation. The final 
 The analytical model was translated into an interactive consumer interface using Cursor.
 * **Prompt Used** : ```create a streamlit application using this code [provided prediction sample code (which is at the end of the jupyter notebook) and categorical mappings]```
 * **Deployment Automation** : To ensure accessibility, a dedicated Windows Batch file (```Streamlit_app.bat```) was built inside the ```Deployment/``` directory to automate application startup for end-users.
+### Application Interface
+#### User Input & Configuration Panel
+![Application Dashboard Setup](/Figs/app_home1.png)
+#### Live Pricing Engine
