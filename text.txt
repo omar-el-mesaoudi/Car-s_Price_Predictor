@@ -1,0 +1,1 @@
+I collected data via web scrapping. So that's the prompt I used : Scrap this website : "https://www.cars.com/" and gather data about mercedes benz cars from it and save it into a csv file
