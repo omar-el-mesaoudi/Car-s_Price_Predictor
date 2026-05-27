@@ -38,5 +38,5 @@ The analytical model was translated into an interactive consumer interface using
 * **Deployment Automation** : To ensure accessibility, a dedicated Windows Batch file (```Streamlit_app.bat```) was built inside the ```Deployment/``` directory to automate application startup for end-users.
 ### Application Interface
 #### User Input & Configuration Panel
-<img src="screenshots/app_home.png" alt="Application Dashboard Setup" width="100%">
+<img src="https://github.com/omar-el-mesaoudi/Car-s_Price_Predictor/blob/main/Figs/app_home_1.png" alt="Application Dashboard Setup" width="80%">
 #### Live Pricing Engine
